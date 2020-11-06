@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TransitionShapes
+  m_Controller: {fileID: 9100000, guid: c90da55a07ab54e34a8aeee59616f62f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: eb7542157eaba42ee876c7885eee4afb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 80493906fdb094cdfbc1fa94a41aa151, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3b721180beff84df5875b9f1befa7c88, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d2c187080a87c47bd8de25fd404fa557, type: 2}

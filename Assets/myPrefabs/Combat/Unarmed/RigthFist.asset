@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174e3c307f7474e6fa3b8acd263a757e, type: 3}
+  m_Name: RigthFist
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: Weapon Name
+    postProcess: 0
+    translationID: 0
+  weaponDescription:
+    content: Weapon Description
+    postProcess: 0
+    translationID: 0
+  defaultShield: {fileID: 11400000, guid: e7f880377f37fb649b1d21c80197bd04, type: 2}
+  characterState: {fileID: 11400000, guid: 34b032466786b764d80759dc69cf0856, type: 2}
+  characterMask: {fileID: 0}
+  prefab: {fileID: 4833087949062105870, guid: 7e2c910e08cfa8c4fb1399acae1197bd, type: 3}
+  attachment: 18
+  positionOffset: {x: 0, y: 0, z: 0}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  audioSheathe: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioImpactNormal: {fileID: 0}
+  audioImpactKnockback: {fileID: 0}
+  groundHitReactionsFront: []
+  groundHitReactionsBehind: []
+  airborneHitReactionsFront: []
+  airborneHitReactionsBehind: []
+  knockbackReaction: []
+  combos:
+  - combo: 00000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 9c6d63b4489dc054aa5e6de738b32228, type: 2}
+    isEnabled: 1
+  - combo: 0000000000000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 93eb685fd378be24e98e31b1dca11760, type: 2}
+    isEnabled: 1
+  - combo: 000000000000000000000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 4d80903e23b76564d8a15d6aa313e3e0, type: 2}
+    isEnabled: 1
+  prefabImpactNormal: {fileID: 0}
+  prefabImpactKnockback: {fileID: 0}
